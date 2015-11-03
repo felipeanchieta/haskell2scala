@@ -1,10 +1,11 @@
 object HaskellToScala {
 
 	def showStartText() {
-		println("""|Santo André Haskell Interpreter (c) 2015
-				   |Written by Felipe Anchieta and Rodrigo Martins.
-				   |Check the LICENSE file before doing anything stupid.
-				   |This software comes WITHOUT ANY WARRANTY.""".stripMargin)
+		println("""
+				|Santo André Haskell Interpreter (c) 2015
+			   	|Written by Felipe Anchieta and Rodrigo Martins.
+			   	|Check the LICENSE file before doing anything stupid.
+			   	|This software comes WITHOUT ANY WARRANTY.""".stripMargin)
 	}
 
 	def showInterpreterLine(str : String) {
@@ -30,5 +31,5 @@ object HaskellToScala {
 		if (processWords) {
 			processWords
 		}
-  }
+	}
 }
