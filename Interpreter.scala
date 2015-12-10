@@ -244,7 +244,7 @@ object Interpreter {
                     val p = go(t,Nil,goMap)
                     /*print("\t intermediate: ")
                     printTokens(p._1)*/
-                    List.invertp._1) match {
+                    List.invert(p._1) match {
                         case Cons(h, t) => go(Cons(h, jump(tokens)), pending, p._2)
                     }
 
